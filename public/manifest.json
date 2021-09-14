@@ -1,0 +1,32 @@
+{
+    "name": "Mókusbüfé - Eplény (2021.09.14)",
+    "short_name": "Mókus-210914",
+    "description": "Mókusbüfé Eplény Étlap Szállóvengégek Részére",
+    "icons": [
+        {
+            "src": "/images/mokusbufe_bw_64_64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/images/mokusbufe_bw_128_128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/images/mokusbufe_bw_256_256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/images/mokusbufe_bw_512_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "scope": "/",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black"
+}
