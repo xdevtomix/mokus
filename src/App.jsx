@@ -20,7 +20,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="bg-red-200">mokus</div>
+    <div className="bg-red-200">mokusbüfé</div>
   )
 }
 
