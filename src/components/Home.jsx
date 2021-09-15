@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-export default function Home({ language, setLanguage }) {
+export default function Home({ language, setLanguage, translations }) {
     const imgRef = useRef(null);
 
     useEffect(() => {
@@ -32,7 +32,9 @@ export default function Home({ language, setLanguage }) {
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
 
-            <button className="fixed top-[1vh] left-[1vw] bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none">Étlab</button>
+            <button className="fixed top-[1vh] left-[1vw] bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none">
+                {translations.menuOpener[language]}
+            </button>
 
             <div className="fixed top-[1vh] right-[1vw] flex flex-col items-end">
                 <a className="bg-black text-white text-lg leading-5 tracking-wider p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
