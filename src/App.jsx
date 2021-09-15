@@ -1,12 +1,13 @@
 import React from 'react';
 
 import ServiceWorkerInstallerUpdater from './components/ServiceWorkerInstallerUpdater';
+import Home from './components/Home';
 
 export default function App() {
   return (
-    <div className="w-full h-full m-0 p-0">
+    <div className="w-full h-full">
       <ServiceWorkerInstallerUpdater />
-      <h1>mókusbüfé3</h1>
+      <Home />
     </div>
   )
 }
