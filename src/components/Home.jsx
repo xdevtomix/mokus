@@ -37,7 +37,7 @@ export default function Home({ language, setLanguage, translations }) {
             </button>
 
             <div className="fixed top-[1vh] right-[1vw] flex flex-col items-end">
-                <a className="bg-black text-white text-lg leading-5 tracking-wider p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
+                <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
                     <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('hu')}>HU</button>
                     <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('en')}>EN</button>
