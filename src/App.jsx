@@ -1,26 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react';
+
+import ServiceWorkerInstallerUpdater from './components/ServiceWorkerInstallerUpdater';
 
 export default function App() {
-
-  useEffect(() => {
-    const serviceWorkerContainer = navigator.serviceWorker;
-
-    serviceWorkerContainer.register('sw-mokus.js')
-      .then((serviceWorkerRegistration) => {
-        console.log('Service worker registered.', serviceWorkerRegistration);
-
-        serviceWorkerRegistration.addEventListener('updatefound', (event) => {
-          if (serviceWorkerRegistration.active) {
-            console.log('Service worker update found');
-          }
-        });
-      });
-
-    return () => { };
-  }, []);
-
   return (
-    <div className="bg-red-200">mokusbüfé</div>
+    <div className="w-full h-full m-0 p-0">
+      <ServiceWorkerInstallerUpdater />
+      <h1>mókusbüfé</h1>
+    </div>
   )
 }
 
