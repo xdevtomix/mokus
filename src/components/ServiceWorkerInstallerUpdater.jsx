@@ -22,7 +22,16 @@ export default function ServiceWorkerInstallerUpdater() {
 
     return (
         <>
-            {updateFound && <div>Frissítsen a legújabb étlaphoz!</div>}
+            {
+                updateFound
+                &&
+                <div
+                    className="fixed inset-0 bg-black text-white cursor-pointer select-none flex justify-center items-center tracking-widest"
+                    onClick={() => location.reload()}
+                >
+                    Frissítsen a legújabb étlaphoz!
+                </div>
+            }
         </>
     );
 }
