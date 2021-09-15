@@ -1,27 +1,24 @@
 import React, { useRef, useEffect } from "react";
 
 export default function Home({ language, setLanguage, translations }) {
-    const imgRef = useRef(null);
+    const containerRef = useRef(null);
 
     useEffect(() => {
-        imgRef.current.animate(
+        containerRef.current.animate(
             [
-                { offset: 0.0, transform: 'scale(1)' },
-                { offset: 0.5, transform: 'scale(2)' },
-                { offset: 1.0, transform: 'scale(1)' },
+                { offset: 0.0, opacity: '0' },
+                { offset: 1.0, opacity: '1' },
             ],
             {
-                delay: 500,
-                duration: 2000,
+                duration: 1000,
             }
         );
         return () => { };
     }, []);
 
     return (
-        <div className="w-full h-full">
+        <div ref={containerRef} className="w-full h-full">
             <img
-                ref={imgRef}
                 srcSet="
                     ./images/mokusbufe_bw_320.jpg 320w,
                     ./images/mokusbufe_bw_640.jpg 640w,
