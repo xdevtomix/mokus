@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-export default function Home() {
+export default function Home({ language, setLanguage }) {
     const imgRef = useRef(null);
 
     useEffect(() => {
@@ -31,6 +31,17 @@ export default function Home() {
                 "
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
+
+            <button className="fixed top-[1vh] left-[1vw] bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none">Étlab</button>
+
+            <div className="fixed top-[1vh] right-[1vw] flex flex-col items-end">
+                <a className="bg-black text-white text-lg leading-5 tracking-wider p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
+                <div className="space-x-2">
+                    <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('hu')}>HU</button>
+                    <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('en')}>EN</button>
+                </div>
+            </div>
+            {language}
         </div>
     );
 }

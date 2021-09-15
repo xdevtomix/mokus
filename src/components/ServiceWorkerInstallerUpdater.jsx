@@ -30,6 +30,8 @@ export default function ServiceWorkerInstallerUpdater() {
                     onClick={() => location.reload()}
                 >
                     Frissítsen a legújabb étlaphoz!
+                    <br />
+                    Refresh to get the latest menu.
                 </div>
             }
         </>
