@@ -1,5 +1,7 @@
 import React, { useRef, useEffect } from "react";
 
+import ActionButton from "./ActionButton";
+
 export default function Home({ language, setLanguage, translations }) {
     const containerRef = useRef(null);
 
@@ -29,18 +31,15 @@ export default function Home({ language, setLanguage, translations }) {
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
 
-            <button className="fixed top-[1vh] left-[1vw] bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none">
-                {translations.menuOpener[language]}
-            </button>
-
+            <ActionButton cssClasses="fixed top-[1vh] left-[1vw]" text={translations.menuOpener[language]} />
+            
             <div className="fixed top-[1vh] right-[1vw] flex flex-col items-end">
                 <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
-                    <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('hu')}>HU</button>
-                    <button className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded cursor-pointer border-0 outline-none" onClick={() => setLanguage('en')}>EN</button>
+                    <ActionButton text="HU" action={() => setLanguage('hu')}/>
+                    <ActionButton text="EN" action={() => setLanguage('en')}/>
                 </div>
             </div>
-            {language}
         </div>
     );
 }
