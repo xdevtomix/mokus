@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 
 import ActionButton from "./ActionButton";
 
-export default function Home({ language, setLanguage, translations }) {
+export default function Home({ language, setLanguage, translations, setIsMenuOpen }) {
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -31,7 +31,7 @@ export default function Home({ language, setLanguage, translations }) {
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
 
-            <ActionButton cssClasses="fixed top-2 left-2" text={translations.menuOpener[language]} />
+            <ActionButton cssClasses="fixed top-2 left-2" text={translations.menuOpener[language]} action={() => setIsMenuOpen(true)}/>
 
             <div className="fixed top-2 right-2 flex flex-col items-end">
                 <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
