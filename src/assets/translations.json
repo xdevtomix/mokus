@@ -1,5 +1,12 @@
 {
     "menuOpener" : {"hu" : "Étlap", "en" : "Menu"},
     "openFor" : {"hu" : "Nyitva csak szállóvendégek részére:", "en" : "Open for our guests only:"},
-    "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"}
+    "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"},
+    "dishes" : {
+        "soups" : {"hu" : "Levesek", "en" : "Soups"},
+        "1" : {"hu" : "1. Rántott leves pirított kenyérkockával sajttal", "en" : "1. Caraway seed soup with croutons and cheese", "price" : "670 Ft"},
+        "2" : {"hu" : "2. Májgaluska leves", "en" : "2. Liver dumpling soup", "price" : "790 Ft"},
+        "3" : {"hu" : "3. Babgulyás", "en" : "3. Bean goulash", "price" : "1480 Ft"},
+        "4" : {"hu" : "4. Ponty halászlé", "en" : "4. Fisherman’s carp soup", "price" : "1620 Ft"}
+    }
 }

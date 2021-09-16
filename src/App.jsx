@@ -13,8 +13,8 @@ export default function App() {
   return (
     <div className="w-full h-full">
       <ServiceWorkerInstallerUpdater />
-      <Home language={language} setLanguage={setLanguage} translations={translations} setIsMenuOpen={setIsMenuOpen} />
-      <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      <Home translations={translations} language={language} setLanguage={setLanguage} setIsMenuOpen={setIsMenuOpen} />
+      <Menu translations={translations} language={language} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
     </div>
   )
 }
