@@ -10,3 +10,7 @@
 .no-scrollbar::-webkit-scrollbar {	/* Hide scrollbar for Chrome, Safari, new Edge and Opera */
     display: none;
 }
+
+html {
+    touch-action: none;             /* pointer events need this to work */
+}
