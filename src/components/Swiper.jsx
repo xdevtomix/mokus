@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
-export default function Swiper() {
+export default function Swiper({ setIsMenuOpen }) {
     useEffect(() => {
         const swipeData = {
-            startTime : 0,
-            endTime : 0,
-            startY : 0,
-            endY : 0,
+            startTime: 0,
+            endTime: 0,
+            startY: 0,
+            endY: 0,
         };
 
         const onPointerDown = (e) => {
@@ -16,7 +16,7 @@ export default function Swiper() {
         };
         const onPointerMove = (e) => {
             e.preventDefault();
-         };
+        };
         const onPointerUp = (e) => {
             e.preventDefault();
             swipeData.endTime = new Date().getTime();
@@ -25,10 +25,10 @@ export default function Swiper() {
             const yDiff = swipeData.endY - swipeData.startY;
             const timeDiff = swipeData.endTime - swipeData.startTime;
 
-            if (yDiff < -50 && timeDiff < 1000 && location.hash !== '#menu--open') {
-                location.hash = '#menu-open';
+            if (yDiff < -50 && timeDiff < 1000) {
+                setIsMenuOpen(true);
             }
-         };
+        };
 
         document.addEventListener('pointerdown', onPointerDown);
         document.addEventListener('pointermove', onPointerMove);

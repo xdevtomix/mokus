@@ -2,7 +2,7 @@ import React from "react";
 
 import MenuItem from "./MenuItem";
 
-export default function Menu({ translations, language, isMenuOpen }) {
+export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen }) {
     return (
         <div className={`
             fixed inset-0 z-10 overflow-y-scroll no-scrollbar
@@ -14,7 +14,7 @@ export default function Menu({ translations, language, isMenuOpen }) {
                 <div className="bg-black">
                     <MenuItem>
                         <h1 className="text-white text-xl leading-6 tracking-wide">{translations.dishes.soups[language]}</h1>
-                        <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-2" onClick={() => location.hash = ''}>X</button>
+                        <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-2" onClick={() => setIsMenuOpen(false)}>X</button>
                     </MenuItem>
                 </div>
                 <div className="bg-white">
