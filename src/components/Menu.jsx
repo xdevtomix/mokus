@@ -18,7 +18,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                 <div className="bg-black">
                     <MenuItem>
                         <h1 className="text-white text-xl leading-6 tracking-wide">{translations.dishes.soups[language]}</h1>
-                        <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none" onClick={() => closeMenu()}>X</button>
+                        <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-2" onClick={() => closeMenu()}>X</button>
                     </MenuItem>
                 </div>
                 <div className="bg-white">
