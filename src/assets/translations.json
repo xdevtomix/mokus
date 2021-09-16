@@ -1,3 +1,5 @@
 {
-    "menuOpener" : {"hu" : "Étlap", "en" : "Menu"}
+    "menuOpener" : {"hu" : "Étlap", "en" : "Menu"},
+    "openFor" : {"hu" : "Nyitva csak szállóvendégek részére:", "en" : "Open for our guests only:"},
+    "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"}
 }

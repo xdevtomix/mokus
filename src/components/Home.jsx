@@ -31,13 +31,37 @@ export default function Home({ language, setLanguage, translations }) {
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
 
-            <ActionButton cssClasses="fixed top-[1vh] left-[1vw]" text={translations.menuOpener[language]} />
-            
-            <div className="fixed top-[1vh] right-[1vw] flex flex-col items-end">
+            <ActionButton cssClasses="fixed top-2 left-2" text={translations.menuOpener[language]} />
+
+            <div className="fixed top-2 right-2 flex flex-col items-end">
                 <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
-                    <ActionButton text="HU" action={() => setLanguage('hu')}/>
-                    <ActionButton text="EN" action={() => setLanguage('en')}/>
+                    <ActionButton text="HU" action={() => setLanguage('hu')} />
+                    <ActionButton text="EN" action={() => setLanguage('en')} />
+                </div>
+            </div>
+
+            <div className="fixed bottom-2 left-2 bg-black text-white text-base leading-4 tracking-widest p-3 rounded">
+                <div>
+                    {translations.openFor[language]}
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div>
+                    {translations.openWhen[language]}
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div>
+                    8413, Eplény Veszprémi utca 41
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div>
+                    Tel: 06 88 453 122 | 06 70 398 1595
                 </div>
             </div>
         </div>
