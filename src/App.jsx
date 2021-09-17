@@ -11,7 +11,7 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full h-full overscroll-y-none">
+    <div className="w-full h-full">
       <ServiceWorkerInstallerUpdater />
       <Home translations={translations} language={language} setLanguage={setLanguage} setIsMenuOpen={setIsMenuOpen} />
       <Menu translations={translations} language={language} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
