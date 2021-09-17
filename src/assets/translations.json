@@ -2,11 +2,53 @@
     "menuOpener" : {"hu" : "Étlap", "en" : "Menu"},
     "openFor" : {"hu" : "Nyitva csak szállóvendégek részére:", "en" : "Open for our guests only:"},
     "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"},
-    "dishes" : {
-        "soups" : {"hu" : "Levesek", "en" : "Soups"},
-        "1" : {"hu" : "1. Rántott leves pirított kenyérkockával sajttal", "en" : "1. Caraway seed soup with croutons and cheese", "price" : "670 Ft"},
-        "2" : {"hu" : "2. Májgaluska leves", "en" : "2. Liver dumpling soup", "price" : "790 Ft"},
-        "3" : {"hu" : "3. Babgulyás", "en" : "3. Bean goulash", "price" : "1480 Ft"},
-        "4" : {"hu" : "4. Ponty halászlé", "en" : "4. Fisherman’s carp soup", "price" : "1620 Ft"}
-    }
+    "dishes" : [
+        {"id" : "soups", "role" : "header", "hu" : "Levesek", "en" : "Soups"},
+        {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft"},
+        {"id" : "2", "role" : "dish", "hu" : "Májgaluska leves", "en" : "Liver dumpling soup", "price" : "790 Ft"},
+        {"id" : "3", "role" : "dish", "hu" : "Babgulyás", "en" : "Bean goulash", "price" : "1480 Ft"},
+        {"id" : "4", "role" : "dish", "hu" : "Ponty halászlé", "en" : "Fisherman’s carp soup", "price" : "1620 Ft"},
+
+        {"id" : "hotDishes", "role" : "header", "hu" : "Melegételek", "en" : "Hot dishes"},
+		{"id" : "5", "role" : "dish", "hu" : "Sertéspörkölt galuskával", "en" : "Pork stew with spaetzle", "price" : "1580 Ft"},
+		{"id" : "6", "role" : "dish", "hu" : "Rántott csirkemell *", "en" : "Breaded chicken breast *", "price" : "2260 Ft"},
+		{"id" : "7", "role" : "dish", "hu" : "Rántott sajt *", "en" : "Breaded cheese *", "price" : "2280 Ft"},
+		{"id" : "8", "role" : "dish", "hu" : "Rántott sertéskaraj *", "en" : "Breaded pork loin steak *", "price" : "2280 Ft"},
+		{"id" : "9", "role" : "dish", "hu" : "Rántott lazac mustáros tejszínnel *", "en" : "Breaded salmon filled with mustard cream *", "price" : "2370 Ft"},
+		{"id" : "10", "role" : "dish", "hu" : "Cigánypecsenye *", "en" : "Gypsy pork stake *", "price" : "2390 Ft"},
+		{"id" : "11", "role" : "dish", "hu" : "Fűszeres tarja tükörtojással sajttal *", "en" : "Spicy pork shoulder cutlet, fried egg, cheese *", "price" : "2430 Ft"},
+		{"id" : "12", "role" : "dish", "hu" : "2 személyes Mókus Tál **", "en" : "Squirrel Platter for 2 **", "price" : "5800 Ft"},
+        {"id" : "hotDishesSeparator", "role" : "separator"},
+		{"id" : "hotDishesOptionalSideDish", "role" : "info", "hu" : "* választható köret: burgonya / rizs", "en" : "* side dish at choice: potato / rice"},
+		{"id" : "squirrel", "role" : "info",
+            "hu" : "** rántott karaj, rántott csirke, sajtos halporció, mustáros lazac, röszti táska, normál tócsi, hagymakarika, rizs, fűszeres burgonya, friss saláta tzatziki öntettel",
+			"en" : "** breaded pork loin steak, breaded chicken, cheese fish fillet, mustard salmon, rösti pocket, normal tochi /potato pancake/, onion rings, rice, seasoned roast potatoes, fresh salad with tzatziki dressing"
+		},
+
+        {"id" : "pasta", "role" : "header", "hu" : "Tészták", "en" : "Pasta"},
+        {"id" : "13", "role" : "dish", "hu" : "Sajtos, tejfölös makaróni", "en" : "Macaroni with cheese and sour cream", "price" : "1370 Ft"},
+		{"id" : "14", "role" : "dish", "hu" : "Túrós csusza", "en" : "Pasta with curd", "price" : "1390 Ft"},
+		{"id" : "15", "role" : "dish", "hu" : "Kapros-túrós csusza", "en" : "Pasta with dill curd", "price" : "1430 Ft"},
+
+		{"id" : "childrenSnacks", "role" : "header", "hu" : "Gyerek ételek", "en" : "Children’s snacks"},
+		{"id" : "16", "role" : "dish", "hu" : "Mosolygós krumpli", "en" : "Smiley potatoes", "price" : "660 Ft"},
+		{"id" : "17", "role" : "dish", "hu" : "Dínó húsi köret nélkül", "en" : "Dino nuggets without a side dish", "price" : "820 Ft"},
+		{"id" : "18", "role" : "dish", "hu" : "Rántott csirkemell *", "en" : "Breaded chicken breast *", "price" : "1330 Ft"},
+        {"id" : "childrenSnacksSeparator", "role" : "separator"},
+		{"id" : "childrenSnacksOptionalSideDish", "role" : "info", "hu" : "* választható köret: burgonya / rizs", "en" : "* side dish at choice: potato / rice"},
+
+		{"id" : "tochis", "role" : "header", "hu" : "XL Tócsik", "en" : "XL Tochis (potato pancakes)"},
+		{"id" : "19", "role" : "dish", "hu" : "Natúr tócsi", "en" : "Plain tochi", "price" : "990 Ft"},
+		{"id" : "20", "role" : "dish", "hu" : "Tócsi fokhagymás tejfölös öntettel", "en" : "Tochi with garlic sour cream sauce", "price" : "1340 Ft"},
+		{"id" : "21", "role" : "dish", "hu" : "Sajtos tejfölös tócsi", "en" : "Tochi with cheese and sour cream", "price" : "1670 Ft"},
+		{"id" : "22", "role" : "dish", "hu" : "Túrós tepertős tejfölös tócsi", "en" : "Tochi with curd, cracklings and sour cream", "price" : "1850 Ft"},
+		{"id" : "23", "role" : "dish", "hu" : "Baconos tócsi", "en" : "Tochi with bacon", "price" : "1880 Ft"},
+		{"id" : "24", "role" : "dish", "hu" : "Pörköltes tócsi", "en" : "Stew wrapped in tochi", "price" : "1880 Ft"},
+		{"id" : "25", "role" : "dish", "hu" : "Gyrosos tócsi", "en" : "Gyros tochi", "price" : "1910 Ft"},
+		{"id" : "26", "role" : "dish", "hu" : "Cigánypecsenye tócsi ágyon", "en" : "Gypsy pork stake on tochi bed", "price" : "2320 Ft"},
+
+		{"id" : "gyrosDishes", "role" : "header", "hu" : "Gyros ételek", "en" : "Gyros dishes"},
+		{"id" : "27", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1490 Ft"},
+		{"id" : "28", "role" : "dish", "hu" : "Gyros tál", "en" : "Gyros plate", "price" : "1590 Ft"}
+    ]
 }

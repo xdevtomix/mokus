@@ -51,26 +51,21 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
             transform ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}
         `}>
             <div>
-                <div className="bg-black">
-                    <MenuItem>
-                        <h1 className="text-white text-xl leading-6 tracking-wide">{translations.dishes.soups[language]}</h1>
-                        <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-4" onClick={() => setIsMenuOpen(false)}>X</button>
-                    </MenuItem>
-                </div>
-                <div className="bg-white">
-                    <MenuItem>
-                        <span>{translations.dishes['1'][language]}</span><span>{translations.dishes['1'].price}</span>
-                    </MenuItem>
-                    <MenuItem>
-                        <span>{translations.dishes['2'][language]}</span><span>{translations.dishes['2'].price}</span>
-                    </MenuItem>
-                    <MenuItem>
-                        <span>{translations.dishes['3'][language]}</span><span>{translations.dishes['3'].price}</span>
-                    </MenuItem>
-                    <MenuItem>
-                        <span>{translations.dishes['4'][language]}</span><span>{translations.dishes['4'].price}</span>
-                    </MenuItem>
-                </div>
+                {translations.dishes.map((item) => {
+                    return (
+                        <MenuItem key={item.id} role={item.role}>
+                            {item.role === 'header' && (
+                                <>
+                                    <h1 className="text-white text-xl leading-6 tracking-wide">{item[language]}</h1>
+                                    {item.id === 'soups' && <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-4" onClick={() => setIsMenuOpen(false)}>X</button>}
+                                </>
+                            )}
+                            {item.role === 'dish' && <><span>{`${item.id}. ${item[language]}`}</span><span>{item.price}</span></>}
+                            {item.role === 'info' && <><span>{item[language]}</span><span></span></>}
+                            {item.role === 'separator' && <><span></span><span></span></>}
+                        </MenuItem>
+                    );
+                })}
             </div>
         </div>
     );
