@@ -49,6 +49,14 @@
 
 		{"id" : "gyrosDishes", "role" : "header", "hu" : "Gyros ételek", "en" : "Gyros dishes"},
 		{"id" : "27", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1490 Ft"},
-		{"id" : "28", "role" : "dish", "hu" : "Gyros tál", "en" : "Gyros plate", "price" : "1590 Ft"}
+		{"id" : "28", "role" : "dish", "hu" : "Gyros tál", "en" : "Gyros plate", "price" : "1590 Ft"},
+
+        {"id" : "vegetarianDishes", "role" : "header", "hu" : "Vegetáriánus ételek *", "en" : "Vegetarian dishes *"},
+		{"id" : "29", "role" : "dish", "hu" : "Rántott hagymakarikák", "en" : "Breaded onion rings", "price" : "880 Ft"},
+		{"id" : "30", "role" : "dish", "hu" : "Rántott karfiol", "en" : "Breaded cauliflower", "price" : "1070 Ft"},
+		{"id" : "31", "role" : "dish", "hu" : "Fűszeres burgonya brokkolis zöldségkeverék", "en" : "Seasoned potatoes on broccoli vegetable bed", "price" : "1330 Ft"},
+		{"id" : "32", "role" : "dish", "hu" : "Rántott sajt", "en" : "Breaded cheese", "price" : "1760 Ft"},
+        {"id" : "vegetarianDishesSeparator", "role" : "separator"},
+		{"id" : "vegetarianDishesWithoutASideDish", "role" : "info", "hu" : "* köret nélkül", "en" : "* without a side dish"}
     ]
 }
