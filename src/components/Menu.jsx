@@ -49,7 +49,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
             fixed inset-0 z-10 overflow-y-scroll no-scrollbar
             transition duration-300 transform-gpu ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'}
         `}>
-            <div>
+            <div className="md:w-3/5 md:mx-auto 2xl:w-2/5">
                 {translations.dishes.map((item) => {
                     return (
                         <MenuItem key={item.id} role={item.role}>
