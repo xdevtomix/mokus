@@ -1,8 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { XCircleIcon } from '@heroicons/react/outline';
 
 import MenuItem from "./MenuItem";
 
 export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen }) {
+    const [selectedDish, setSelectedDish] = useState(null);
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -57,16 +59,36 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                             {item.role === 'header' && (
                                 <>
                                     <h1 className="text-white text-xl leading-6 tracking-wide">{item[language]}</h1>
-                                    {item.id === 'soups' && <button className="text-white text-xl leading-6 cursor-pointer outline-none select-none mr-4" onClick={() => setIsMenuOpen(false)}>X</button>}
+                                    {item.id === 'soups' && <XCircleIcon className="h-10 w-10 text-gray-300" onClick={() => setIsMenuOpen(false)} />}
                                 </>
                             )}
-                            {item.role === 'dish' && <><span>{`${item.id}. ${item[language]}`}</span><span>{item.price}</span></>}
+                            {item.role === 'dish' && (
+                                <>
+                                    <span onClick={() => setSelectedDish(item)}>{`${item.id}. ${item[language]}`}</span><span>{item.price}</span>
+                                </>
+                            )}
                             {item.role === 'info' && <><span>{item[language]}</span><span></span></>}
                             {item.role === 'separator' && <><span></span><span></span></>}
                         </MenuItem>
                     );
                 })}
             </div>
+            {
+                (
+                    <div
+                        className={`
+                            absolute inset-0 flex flex-col items-center justify-between bg-gray-200/95 transition duration-300
+                            ${selectedDish?.url ? 'visible opacity-100' : 'invisible opacity-0'}
+                        `}
+                    >
+                        <XCircleIcon className="h-12 w-12 mt-4 text-gray-600" onClick={() => setSelectedDish(null)} />
+                        <img
+                            className="w-4/5 h-4/5 object-cover rounded-3xl mb-10"
+                            src={selectedDish?.url} alt={selectedDish?.[language]}
+                        />
+                    </div>
+                )
+            }
         </div>
     );
 }

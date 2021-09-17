@@ -4,7 +4,7 @@
     "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"},
     "dishes" : [
         {"id" : "soups", "role" : "header", "hu" : "Levesek", "en" : "Soups"},
-        {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft"},
+        {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft", "url" : "./images/dishes/test1.jpg"},
         {"id" : "2", "role" : "dish", "hu" : "Májgaluska leves", "en" : "Liver dumpling soup", "price" : "790 Ft"},
         {"id" : "3", "role" : "dish", "hu" : "Babgulyás", "en" : "Bean goulash", "price" : "1480 Ft"},
         {"id" : "4", "role" : "dish", "hu" : "Ponty halászlé", "en" : "Fisherman’s carp soup", "price" : "1620 Ft"},
