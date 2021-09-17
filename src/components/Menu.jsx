@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { XCircleIcon, PhotographIcon } from '@heroicons/react/outline';
 
 import MenuItem from "./MenuItem";
 
-export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen }) {
-    const [selectedDish, setSelectedDish] = useState(null);
+export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen, setSelectedDish }) {
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -48,9 +47,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
     return (
         <div ref={containerRef} className={`
             fixed inset-0 z-10 overflow-y-scroll no-scrollbar
-            transition duration-300
-            ${isMenuOpen ? 'opacity-100' : 'opacity-0'}
-            transform ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}
+            transition duration-300 transform-gpu ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'}
         `}>
             <div>
                 {translations.dishes.map((item) => {
@@ -77,22 +74,6 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                     );
                 })}
             </div>
-            {
-                (
-                    <div
-                        className={`
-                            absolute inset-0 flex flex-col items-center justify-start bg-gray-200 transition duration-300
-                            ${selectedDish?.url ? 'visible opacity-100' : 'invisible opacity-0'}
-                        `}
-                    >
-                        <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(null)} />
-                        <img
-                            className="w-11/12 h-4/6 object-cover rounded-3xl"
-                            src={selectedDish?.url} alt={selectedDish?.[language]}
-                        />
-                    </div>
-                )
-            }
         </div>
     );
 }
