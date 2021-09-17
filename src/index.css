@@ -10,3 +10,7 @@
 .no-scrollbar::-webkit-scrollbar {	/* Hide scrollbar for Chrome, Safari, new Edge and Opera */
     display: none;
 }
+
+.no-bh {                            /* no blue higlight color on touch */
+    -webkit-tap-highlight-color: transparent;
+}

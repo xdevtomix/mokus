@@ -59,14 +59,14 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                             {item.role === 'header' && (
                                 <>
                                     <h1 className="text-white text-xl leading-6 tracking-wide">{item[language]}</h1>
-                                    {item.id === 'soups' && <XCircleIcon className="h-10 w-10 text-gray-300 cursor-pointer select-none" onClick={() => setIsMenuOpen(false)} />}
+                                    {item.id === 'soups' && <XCircleIcon className="h-10 w-10 text-gray-300 cursor-pointer no-bh" onClick={() => setIsMenuOpen(false)} />}
                                 </>
                             )}
                             {item.role === 'dish' && (
                                 <>
                                     <div className="flex items-center">
                                         <span>{`${item.id}. ${item[language]}`}</span>
-                                        {item.url && <PhotographIcon className="ml-2 w-6 h-6 text-gray-600 cursor-pointer select-none" onClick={() => setSelectedDish(item)} />}
+                                        {item.url && <PhotographIcon className="ml-2 w-6 h-6 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(item)} />}
                                     </div>
                                     <span>{item.price}</span>
                                 </>
@@ -85,7 +85,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                             ${selectedDish?.url ? 'visible opacity-100' : 'invisible opacity-0'}
                         `}
                     >
-                        <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer select-none" onClick={() => setSelectedDish(null)} />
+                        <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(null)} />
                         <img
                             className="w-11/12 h-4/6 object-cover rounded-3xl"
                             src={selectedDish?.url} alt={selectedDish?.[language]}
