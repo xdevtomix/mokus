@@ -66,7 +66,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                                 <>
                                     <div className="flex items-center">
                                         <span>{`${item.id}. ${item[language]}`}</span>
-                                        <PhotographIcon className="ml-2 w-4 h-4 cursor-pointer" onClick={() => setSelectedDish(item)} />
+                                        {item.url && <PhotographIcon className="ml-2 w-4 h-4 cursor-pointer" onClick={() => setSelectedDish(item)} />}
                                     </div>
                                     <span>{item.price}</span>
                                 </>
@@ -81,13 +81,13 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                 (
                     <div
                         className={`
-                            absolute inset-0 flex flex-col items-center justify-between bg-gray-200/95 transition duration-300
+                            absolute inset-0 flex flex-col items-center justify-start bg-gray-200 transition duration-300
                             ${selectedDish?.url ? 'visible opacity-100' : 'invisible opacity-0'}
                         `}
                     >
-                        <XCircleIcon className="h-12 w-12 mt-4 text-gray-600 cursor-pointer" onClick={() => setSelectedDish(null)} />
+                        <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer" onClick={() => setSelectedDish(null)} />
                         <img
-                            className="w-4/5 h-4/5 object-contain rounded-3xl mb-10"
+                            className="w-11/12 h-4/6 object-cover rounded-3xl"
                             src={selectedDish?.url} alt={selectedDish?.[language]}
                         />
                     </div>
