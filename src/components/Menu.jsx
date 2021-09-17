@@ -49,6 +49,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
             transition duration-300
             ${isMenuOpen ? 'opacity-100' : 'opacity-0'}
             transform ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}
+            overscroll-y-contain
         `}>
             <div className="overscroll-y-contain">
                 {translations.dishes.map((item) => {
