@@ -51,7 +51,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
             transform ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}
             overscroll-y-none
         `}>
-            <div className="overscroll-y-none">
+            <div>
                 {translations.dishes.map((item) => {
                     return (
                         <MenuItem key={item.id} role={item.role}>
