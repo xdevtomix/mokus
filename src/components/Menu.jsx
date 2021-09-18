@@ -70,6 +70,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                             )}
                             {item.role === 'info' && <><span>{item[language]}</span><span></span></>}
                             {item.role === 'separator' && <><span></span><span></span></>}
+                            {item.role === 'info-centered' && <div className="flex justify-center items-center w-full">{item[language]}</div>}
                         </MenuItem>
                     );
                 })}

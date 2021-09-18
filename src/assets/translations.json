@@ -57,6 +57,57 @@
 		{"id" : "31", "role" : "dish", "hu" : "Fűszeres burgonya brokkolis zöldségkeverék", "en" : "Seasoned potatoes on broccoli vegetable bed", "price" : "1330 Ft"},
 		{"id" : "32", "role" : "dish", "hu" : "Rántott sajt", "en" : "Breaded cheese", "price" : "1760 Ft"},
         {"id" : "vegetarianDishesSeparator", "role" : "separator"},
-		{"id" : "vegetarianDishesWithoutASideDish", "role" : "info", "hu" : "* köret nélkül", "en" : "* without a side dish"}
+		{"id" : "vegetarianDishesWithoutASideDish", "role" : "info", "hu" : "* köret nélkül", "en" : "* without a side dish"},
+
+		{"id" : "sideDishes", "role" : "header", "hu" : "Köretek", "en" : "Side dishes"},
+		{"id" : "33", "role" : "dish", "hu" : "Hasábburgonya", "en" : "French fries", "price" : "500 Ft"},
+		{"id" : "34", "role" : "dish", "hu" : "Rizs", "en" : "Rice", "price" : "500 Ft"},
+		{"id" : "35", "role" : "dish", "hu" : "Galuska", "en" : "Spaetzle", "price" : "500 Ft"},
+		{"id" : "36", "role" : "dish", "hu" : "Fűszeres burgonya", "en" : "Seasoned roast potatoes", "price" : "550 Ft"},
+		{"id" : "37", "role" : "dish", "hu" : "Párolt brokkolis zöldségkeverék", "en" : "Vegetable mix with braised broccoli", "price" : "860 Ft"},
+		{"id" : "38", "role" : "dish", "hu" : "Röstitáskák (sajttal és zöldfűszerkeverékkel)", "en" : "Rösti pockets (with cheese and green spices)", "price" : "1070 Ft"},
+
+		{"id" : "dressings", "role" : "header", "hu" : "Öntetek", "en" : "Dressings"},
+		{"id" : "39", "role" : "dish", "hu" : "Oliva olajos", "en" : "Olive oil", "price" : "200 Ft"},
+		{"id" : "40", "role" : "dish", "hu" : "Ecetes dressing", "en" : "Vinegar dressing", "price" : "200 Ft"},
+		{"id" : "41", "role" : "dish", "hu" : "Tartár mártás", "en" : "Tartar sauce", "price" : "200 Ft"},
+		{"id" : "42", "role" : "dish", "hu" : "Tzatziki öntet", "en" : "Tzatziki dressing", "price" : "200 Ft"},
+		{"id" : "43", "role" : "dish", "hu" : "Fokhagymás tejfölös", "en" : "Garlic sour cream", "price" : "200 Ft"},
+
+		{"id" : "desserts", "role" : "header", "hu" : "Desszertek", "en" : "Desserts"},
+		{"id" : "44", "role" : "dish", "hu" : "Palacsinta *", "en" : "Pancake *", "price" : "580 Ft"},
+		{"id" : "45", "role" : "dish", "hu" : "Palacsinta szilvalekváros, fahéjas öntettel", "en" : "Pancake with plum jam and cinnamon sauce", "price" : "730 Ft"},
+		{"id" : "46", "role" : "dish", "hu" : "Gesztenyepüré", "en" : "Chestnut purée with whipped cream", "price" : "780 Ft"},
+		{"id" : "dessertsSeparator", "role" : "separator"},
+		{"id" : "dessertsFillings", "role" : "info", "hu" : "* töltelék: túró, lekvár, nutella, kakaó", "en" : "* fillings: curd, jam, nutella, cacao"},
+
+		{"id" : "pickles", "role" : "header", "hu" : "Savanyúságok", "en" : "Pickles"},
+		{"id" : "47", "role" : "dish", "hu" : "Almapaprika", "en" : "Apple pepper", "price" : "490 Ft"},
+		{"id" : "48", "role" : "dish", "hu" : "Cékla", "en" : "Beetroot salad", "price" : "490 Ft"},
+		{"id" : "49", "role" : "dish", "hu" : "Csemegeuborka", "en" : "Sweet cucumber", "price" : "490 Ft"},
+		{"id" : "50", "role" : "dish", "hu" : "Vegyes savanyúság", "en" : "Mixed pickles", "price" : "490 Ft"},
+		{"id" : "51", "role" : "dish", "hu" : "Friss saláta keverék választható öntettel", "en" : "Fresh salad mix with dressing at choice", "price" : "660 Ft"},
+
+		{"id" : "breakfast", "role" : "header", "hu" : "Reggeli *", "en" : "Breakfast *"},
+		{"id" : "52", "role" : "dish", "hu" : "Vaj + dzsem", "en" : "Butter + jam", "price" : "680 Ft"},
+		{"id" : "53", "role" : "dish", "hu" : "Bundáskenyér", "en" : "French toast", "price" : "910 Ft"},
+		{"id" : "54", "role" : "dish", "hu" : "Tojásrántotta", "en" : "Scrambled eggs", "price" : "960 Ft"},
+		{"id" : "55", "role" : "dish", "hu" : "Virsli mustárral", "en" : "Hot frankfurters with mustard", "price" : "960 Ft"},
+		{"id" : "56", "role" : "dish", "hu" : "Sonkás tojásrántotta", "en" : "Scrambled eggs with ham", "price" : "1020 Ft"},
+		{"id" : "57", "role" : "dish", "hu" : "Szalonnás hagymás tojás", "en" : "Scrambled eggs with bacon and onion", "price" : "1070 Ft"},
+		{"id" : "58", "role" : "dish", "hu" : "Ham and eggs", "en" : "Ham and eggs", "price" : "1080 Ft"},
+		{"id" : "59", "role" : "dish", "hu" : "Kontinentális reggeli", "en" : "Continental breakfast", "price" : "1230 Ft"},
+		{"id" : "breakfastSeparator", "role" : "separator"},
+		{"id" : "breakfastBread", "role" : "info", "hu" : "* a reggelihez 4 szelet kenyér jár", "en" : "* 4 slices of bread are available for breakfast"},
+
+		{"id" : "closing", "role" : "header", "hu" : "", "en" : ""},
+		{"id" : "closing1", "role" : "info-centered", "hu" : "A feltüntetett árak Ft-ban értendők", "en" : "The prices are in HUF"},
+		{"id" : "closing2", "role" : "info-centered", "hu" : "és az ÁFA-t tartalmazzák!", "en" : "including VAT!"},
+		{"id" : "closing3", "role" : "info-centered", "hu" : "A fél adag ételek 70%-os áron", "en" : "70% price will be charged"},
+		{"id" : "closing4", "role" : "info-centered", "hu" : "kerülnek felszámításra.", "en" : "for half portions."},
+		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
+		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
+		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.09.18", "en" : "v21.09.18"}
     ]
 }
