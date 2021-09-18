@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import { ChevronDoubleUpIcon } from '@heroicons/react/outline';
 
 import ActionButton from "./ActionButton";
 
@@ -65,13 +64,6 @@ export default function Home({ translations, language, setLanguage, setIsMenuOpe
                     Tel: 06 88 453 122 | 06 70 398 1595
                 </div>
             </div>
-
-            {
-                navigator.maxTouchPoints && 
-                <ChevronDoubleUpIcon
-                    className="fixed top-[60%] left-1/2 w-1/6 transform-gpu -translate-x-1/2 -translate-y-1/2 text-gray-50 animate-pulse" 
-                />
-            }
         </div>
     );
 }
