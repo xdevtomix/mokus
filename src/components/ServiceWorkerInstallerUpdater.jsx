@@ -26,12 +26,11 @@ export default function ServiceWorkerInstallerUpdater() {
                 updateFound
                 &&
                 <div
-                    className="fixed inset-0 z-10 bg-black text-white cursor-pointer select-none flex justify-center items-center tracking-widest"
+                    className="fixed inset-0 z-10 bg-black text-white cursor-pointer select-none flex flex-col justify-center items-center tracking-widest"
                     onClick={() => location.reload()}
                 >
-                    BELÉPÉS
-                    <br />
-                    ENTER
+                    <div>Kattintson ide a legújabb étlaphoz!</div>
+                    <div>Click here for the latest menu.</div>
                 </div>
             }
         </>
