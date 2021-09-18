@@ -29,9 +29,9 @@ export default function ServiceWorkerInstallerUpdater() {
                     className="fixed inset-0 z-10 bg-black text-white cursor-pointer select-none flex justify-center items-center tracking-widest"
                     onClick={() => location.reload()}
                 >
-                    Frissítsen a legújabb étlaphoz!
+                    BELÉPÉS
                     <br />
-                    Refresh to get the latest menu.
+                    ENTER
                 </div>
             }
         </>
