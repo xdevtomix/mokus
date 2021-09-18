@@ -26,6 +26,7 @@ export default function ServiceWorkerInstallerUpdater() {
                 updateFound
                 &&
                 <div
+                    data-component="service-worker-installer-updater"
                     className="fixed inset-0 z-10 bg-black text-white cursor-pointer select-none flex flex-col justify-center items-center tracking-widest"
                     onClick={() => location.reload()}
                 >

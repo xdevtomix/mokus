@@ -45,7 +45,7 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
     }, []);
 
     return (
-        <div ref={containerRef} className={`
+        <div data-component="menu" ref={containerRef} className={`
             fixed inset-0 z-10 overflow-y-scroll no-scrollbar
             transition duration-300 transform-gpu ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'}
         `}>

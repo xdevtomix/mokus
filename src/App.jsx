@@ -13,7 +13,7 @@ export default function App() {
   const [selectedDish, setSelectedDish] = useState(null);
 
   return (
-    <div className="w-full h-full">
+    <div data-component="app" className="w-full h-full">
       <ServiceWorkerInstallerUpdater />
       <Home translations={translations} language={language} setLanguage={setLanguage} setIsMenuOpen={setIsMenuOpen} />
       <Menu translations={translations} language={language} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} setSelectedDish={setSelectedDish} />

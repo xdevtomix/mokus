@@ -4,6 +4,7 @@ import { XCircleIcon } from '@heroicons/react/outline';
 export default function ImageViewer({ language, selectedDish, setSelectedDish }) {
     return (
         <div
+            data-component="image-viewer"
             className={`
                 absolute inset-0
                 flex flex-col items-center justify-start
