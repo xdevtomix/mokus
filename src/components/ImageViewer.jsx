@@ -13,10 +13,7 @@ export default function ImageViewer({ language, selectedDish, setSelectedDish })
             `}
         >
             <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(null)} />
-            <img
-                className="w-11/12 h-4/6 object-cover rounded-3xl"
-                src={selectedDish?.url} alt={selectedDish?.[language]}
-            />
+            {selectedDish?.url && <img className="w-11/12 h-4/6 object-cover rounded-3xl" src={selectedDish?.url} alt={selectedDish?.[language]} />}
         </div>
     );
 }
