@@ -40,13 +40,13 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
                 action={() => setIsMenuOpen(true)}
             />
 
-            {!isMenuOpen && <div className="fixed top-2 right-2 flex flex-col items-end">
+            <div className={`fixed top-2 right-2 flex flex-col items-end transition duration-300 transform-gpu ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
                 <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
                     <ActionButton cssClasses={language === 'hu' ? 'text-pink-300' : ''} text="HU" action={() => setLanguage('hu')} />
                     <ActionButton cssClasses={language === 'en' ? 'text-pink-300' : ''} text="EN" action={() => setLanguage('en')} />
                 </div>
-            </div>}
+            </div>
 
             <div className="fixed bottom-2 left-2 bg-black text-white text-base leading-4 tracking-widest p-3 rounded">
                 <div>
