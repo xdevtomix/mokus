@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div data-component="app" className="w-full h-full">
       <ServiceWorkerInstallerUpdater />
-      <Home translations={translations} language={language} setLanguage={setLanguage} setIsMenuOpen={setIsMenuOpen} />
+      <Home translations={translations} language={language} setLanguage={setLanguage} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <Menu translations={translations} language={language} setLanguage={setLanguage} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} setSelectedDish={setSelectedDish} />
       <ImageViewer language={language} selectedDish={selectedDish} setSelectedDish={setSelectedDish} />
     </div>
