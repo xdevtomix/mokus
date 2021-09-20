@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from "react";
 import { XCircleIcon, PhotographIcon } from '@heroicons/react/outline';
 
 import MenuItem from "./MenuItem";
+import ActionButton from "./ActionButton";
 
-export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen, setSelectedDish }) {
+export default function Menu({ translations, language, setLanguage, isMenuOpen, setIsMenuOpen, setSelectedDish }) {
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -56,7 +57,13 @@ export default function Menu({ translations, language, isMenuOpen, setIsMenuOpen
                             {item.role === 'header' && (
                                 <>
                                     <h1 className="text-white text-xl leading-6 tracking-wide">{item[language]}</h1>
-                                    {item.id === 'soups' && <XCircleIcon className="h-10 w-10 text-gray-300 cursor-pointer no-bh" onClick={() => setIsMenuOpen(false)} />}
+                                    {item.id === 'soups' && (
+                                        <div className="flex justify-between items-center">
+                                            <ActionButton cssClasses={`pr-1 ${language === 'hu' ? 'text-pink-300' : ''}`} text="HU" action={() => setLanguage('hu')} />
+                                            <ActionButton cssClasses={`pl-1 ${language === 'en' ? 'text-pink-300' : ''}`} text="EN" action={() => setLanguage('en')} />
+                                            <XCircleIcon className="h-10 w-10 text-gray-300 cursor-pointer no-bh" onClick={() => setIsMenuOpen(false)} />
+                                        </div>
+                                    )}
                                 </>
                             )}
                             {item.role === 'dish' && (

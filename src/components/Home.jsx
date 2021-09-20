@@ -43,8 +43,8 @@ export default function Home({ translations, language, setLanguage, setIsMenuOpe
             <div className="fixed top-2 right-2 flex flex-col items-end">
                 <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://www.bakonyiapartmanhaz.hu">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
-                    <ActionButton text="HU" action={() => setLanguage('hu')} />
-                    <ActionButton text="EN" action={() => setLanguage('en')} />
+                    <ActionButton cssClasses={language === 'hu' ? 'text-pink-300' : ''} text="HU" action={() => setLanguage('hu')} />
+                    <ActionButton cssClasses={language === 'en' ? 'text-pink-300' : ''} text="EN" action={() => setLanguage('en')} />
                 </div>
             </div>
 
