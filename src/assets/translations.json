@@ -4,9 +4,9 @@
     "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"},
     "dishes" : [
         {"id" : "soups", "role" : "header", "hu" : "Levesek", "en" : "Soups"},
-        {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft", "url" : "./images/dishes/test1.jpg"},
+        {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft", "url" : ""},
         {"id" : "2", "role" : "dish", "hu" : "Májgaluska leves", "en" : "Liver dumpling soup", "price" : "790 Ft"},
-        {"id" : "3", "role" : "dish", "hu" : "Babgulyás", "en" : "Bean goulash", "price" : "1480 Ft"},
+        {"id" : "3", "role" : "dish", "hu" : "Babgulyás", "en" : "Bean goulash", "price" : "1480 Ft", "url" : "./images/dishes/babgulyas.jpeg"},
         {"id" : "4", "role" : "dish", "hu" : "Ponty halászlé", "en" : "Fisherman’s carp soup", "price" : "1620 Ft"},
 
         {"id" : "hotDishes", "role" : "header", "hu" : "Melegételek", "en" : "Hot dishes"},
@@ -89,13 +89,13 @@
 		{"id" : "51", "role" : "dish", "hu" : "Friss saláta keverék választható öntettel", "en" : "Fresh salad mix with dressing at choice", "price" : "660 Ft"},
 
 		{"id" : "breakfast", "role" : "header", "hu" : "Reggeli *", "en" : "Breakfast *"},
-		{"id" : "52", "role" : "dish", "hu" : "Vaj + dzsem", "en" : "Butter + jam", "price" : "680 Ft"},
-		{"id" : "53", "role" : "dish", "hu" : "Bundáskenyér", "en" : "French toast", "price" : "910 Ft"},
+		{"id" : "52", "role" : "dish", "hu" : "Vaj + dzsem", "en" : "Butter + jam", "price" : "680 Ft", "url": "./images/dishes/vaj_dzsem.jpeg"},
+		{"id" : "53", "role" : "dish", "hu" : "Bundáskenyér", "en" : "French toast", "price" : "910 Ft", "url": "./images/dishes/bundaskenyer.jpeg"},
 		{"id" : "54", "role" : "dish", "hu" : "Tojásrántotta", "en" : "Scrambled eggs", "price" : "960 Ft"},
-		{"id" : "55", "role" : "dish", "hu" : "Virsli mustárral", "en" : "Hot frankfurters with mustard", "price" : "960 Ft"},
+		{"id" : "55", "role" : "dish", "hu" : "Virsli mustárral", "en" : "Hot frankfurters with mustard", "price" : "960 Ft", "url": "./images/dishes/virsli_mustarral.jpeg"},
 		{"id" : "56", "role" : "dish", "hu" : "Sonkás tojásrántotta", "en" : "Scrambled eggs with ham", "price" : "1020 Ft"},
 		{"id" : "57", "role" : "dish", "hu" : "Szalonnás hagymás tojás", "en" : "Scrambled eggs with bacon and onion", "price" : "1070 Ft"},
-		{"id" : "58", "role" : "dish", "hu" : "Ham and eggs", "en" : "Ham and eggs", "price" : "1080 Ft"},
+		{"id" : "58", "role" : "dish", "hu" : "Ham and eggs", "en" : "Ham and eggs", "price" : "1080 Ft", "url" : "./images/dishes/ham_and_eggs.jpeg"},
 		{"id" : "59", "role" : "dish", "hu" : "Kontinentális reggeli", "en" : "Continental breakfast", "price" : "1230 Ft"},
 		{"id" : "breakfastSeparator", "role" : "separator"},
 		{"id" : "breakfastBread", "role" : "info", "hu" : "* a reggelihez 4 szelet kenyér jár", "en" : "* 4 slices of bread are available for breakfast"},
@@ -108,6 +108,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.09.18", "en" : "v21.09.18"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.05", "en" : "v21.10.05"}
     ]
 }
