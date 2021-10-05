@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function MenuItem({role, children}) {
     return (
         <div data-component="menu-item" className={`

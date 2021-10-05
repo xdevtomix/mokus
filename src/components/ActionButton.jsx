@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ActionButton({cssClasses, text, action}) {
     return (
         <button

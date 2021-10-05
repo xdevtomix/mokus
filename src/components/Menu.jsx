@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { XCircleIcon, PhotographIcon } from '@heroicons/react/outline';
 
 import MenuItem from "./MenuItem";
