@@ -22,7 +22,6 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
         <div data-component="home" ref={containerRef} className="w-full h-full">
             <img
                 srcSet="
-                    ./images/mokusbufe_bw_320.jpg 320w,
                     ./images/mokusbufe_bw_640.jpg 640w,
                     ./images/mokusbufe_bw_1280.jpg 1280w,
                     ./images/mokusbufe_bw_1920.jpg 1920w,
