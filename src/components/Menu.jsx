@@ -70,7 +70,8 @@ export default function Menu({ translations, language, setLanguage, isMenuOpen, 
                                 <>
                                     <div className="flex items-center">
                                         <span>{`${item.id}. ${item[language]}`}</span>
-                                        {item.url && <PhotographIcon className="ml-2 w-6 h-6 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(item)} />}
+                                        {item.url && <img className="w-1 h-6 invisible no-bh" src={item.url} alt={item[language]} loading="lazy" />}
+                                        {item.url && <PhotographIcon className="w-6 h-6 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(item)} />}
                                     </div>
                                     <span>{item.price}</span>
                                 </>
