@@ -12,7 +12,7 @@
         {"id" : "hotDishes", "role" : "header", "hu" : "Melegételek", "en" : "Hot dishes"},
 		{"id" : "5", "role" : "dish", "hu" : "Sertéspörkölt galuskával", "en" : "Pork stew with spaetzle", "price" : "1580 Ft"},
 		{"id" : "6", "role" : "dish", "hu" : "Rántott csirkemell *", "en" : "Breaded chicken breast *", "price" : "2260 Ft"},
-		{"id" : "7", "role" : "dish", "hu" : "Rántott sajt *", "en" : "Breaded cheese *", "price" : "2280 Ft"},
+		{"id" : "7", "role" : "dish", "hu" : "Rántott sajt *", "en" : "Breaded cheese *", "price" : "2280 Ft", "url" : "./images/dishes/rantott_sajt_korettel.jpeg"},
 		{"id" : "8", "role" : "dish", "hu" : "Rántott sertéskaraj *", "en" : "Breaded pork loin steak *", "price" : "2280 Ft"},
 		{"id" : "9", "role" : "dish", "hu" : "Rántott lazac mustáros tejszínnel *", "en" : "Breaded salmon filled with mustard cream *", "price" : "2370 Ft"},
 		{"id" : "10", "role" : "dish", "hu" : "Cigánypecsenye *", "en" : "Gypsy pork stake *", "price" : "2390 Ft"},
@@ -49,7 +49,7 @@
 
 		{"id" : "gyrosDishes", "role" : "header", "hu" : "Gyros ételek", "en" : "Gyros dishes"},
 		{"id" : "27", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1490 Ft"},
-		{"id" : "28", "role" : "dish", "hu" : "Gyros tál", "en" : "Gyros plate", "price" : "1590 Ft"},
+		{"id" : "28", "role" : "dish", "hu" : "Gyros tál", "en" : "Gyros plate", "price" : "1590 Ft", "url" : "./images/dishes/gyros_tal.jpeg"},
 
         {"id" : "vegetarianDishes", "role" : "header", "hu" : "Vegetáriánus ételek *", "en" : "Vegetarian dishes *"},
 		{"id" : "29", "role" : "dish", "hu" : "Rántott hagymakarikák", "en" : "Breaded onion rings", "price" : "880 Ft"},
@@ -108,6 +108,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.08.3", "en" : "v21.10.08.3"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.09.1", "en" : "v21.10.09.1"}
     ]
 }
