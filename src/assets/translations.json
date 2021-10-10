@@ -17,7 +17,7 @@
 		{"id" : "9", "role" : "dish", "hu" : "Rántott lazac mustáros tejszínnel *", "en" : "Breaded salmon filled with mustard cream *", "price" : "2370 Ft"},
 		{"id" : "10", "role" : "dish", "hu" : "Cigánypecsenye *", "en" : "Gypsy pork stake *", "price" : "2390 Ft"},
 		{"id" : "11", "role" : "dish", "hu" : "Fűszeres tarja tükörtojással sajttal *", "en" : "Spicy pork shoulder cutlet, fried egg, cheese *", "price" : "2430 Ft"},
-		{"id" : "12", "role" : "dish", "hu" : "2 személyes Mókus Tál **", "en" : "Squirrel Platter for 2 **", "price" : "5800 Ft"},
+		{"id" : "12", "role" : "dish", "hu" : "2 személyes Mókus Tál **", "en" : "Squirrel Platter for 2 **", "price" : "5800 Ft", "url" : "./images/dishes/mokus_tal.jpeg"},
         {"id" : "hotDishesSeparator", "role" : "separator"},
 		{"id" : "hotDishesOptionalSideDish", "role" : "info", "hu" : "* választható köret: burgonya / rizs", "en" : "* side dish at choice: potato / rice"},
 		{"id" : "squirrel", "role" : "info",
@@ -91,9 +91,9 @@
 		{"id" : "breakfast", "role" : "header", "hu" : "Reggeli *", "en" : "Breakfast *"},
 		{"id" : "52", "role" : "dish", "hu" : "Vaj + dzsem", "en" : "Butter + jam", "price" : "680 Ft", "url": "./images/dishes/vaj_dzsem.jpeg"},
 		{"id" : "53", "role" : "dish", "hu" : "Bundáskenyér", "en" : "French toast", "price" : "910 Ft", "url": "./images/dishes/bundaskenyer.jpeg"},
-		{"id" : "54", "role" : "dish", "hu" : "Tojásrántotta", "en" : "Scrambled eggs", "price" : "960 Ft"},
+		{"id" : "54", "role" : "dish", "hu" : "Tojásrántotta", "en" : "Scrambled eggs", "price" : "960 Ft", "url" : "./images/dishes/tojasrantotta.jpeg"},
 		{"id" : "55", "role" : "dish", "hu" : "Virsli mustárral", "en" : "Hot frankfurters with mustard", "price" : "960 Ft", "url": "./images/dishes/virsli_mustarral.jpeg"},
-		{"id" : "56", "role" : "dish", "hu" : "Sonkás tojásrántotta", "en" : "Scrambled eggs with ham", "price" : "1020 Ft"},
+		{"id" : "56", "role" : "dish", "hu" : "Sonkás tojásrántotta", "en" : "Scrambled eggs with ham", "price" : "1020 Ft", "url" : "./images/dishes/sonkas_tojasrantotta.jpeg"},
 		{"id" : "57", "role" : "dish", "hu" : "Szalonnás hagymás tojás", "en" : "Scrambled eggs with bacon and onion", "price" : "1070 Ft"},
 		{"id" : "58", "role" : "dish", "hu" : "Ham and eggs", "en" : "Ham and eggs", "price" : "1080 Ft", "url" : "./images/dishes/ham_and_eggs.jpeg"},
 		{"id" : "59", "role" : "dish", "hu" : "Kontinentális reggeli", "en" : "Continental breakfast", "price" : "1230 Ft"},
@@ -108,6 +108,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.09.3", "en" : "v21.10.09.3"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.10.1", "en" : "v21.10.10.1"}
     ]
 }
