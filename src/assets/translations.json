@@ -5,16 +5,16 @@
     "dishes" : [
         {"id" : "soups", "role" : "header", "hu" : "Levesek", "en" : "Soups"},
         {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft", "url" : ""},
-        {"id" : "2", "role" : "dish", "hu" : "Májgaluska leves", "en" : "Liver dumpling soup", "price" : "790 Ft"},
+        {"id" : "2", "role" : "dish", "hu" : "Májgaluska leves", "en" : "Liver dumpling soup", "price" : "790 Ft", "url" : "./images/dishes/majgaluska_leves.jpeg"},
         {"id" : "3", "role" : "dish", "hu" : "Babgulyás", "en" : "Bean goulash", "price" : "1480 Ft", "url" : "./images/dishes/babgulyas.jpeg"},
         {"id" : "4", "role" : "dish", "hu" : "Ponty halászlé", "en" : "Fisherman’s carp soup", "price" : "1620 Ft"},
 
         {"id" : "hotDishes", "role" : "header", "hu" : "Melegételek", "en" : "Hot dishes"},
 		{"id" : "5", "role" : "dish", "hu" : "Sertéspörkölt galuskával", "en" : "Pork stew with spaetzle", "price" : "1580 Ft"},
-		{"id" : "6", "role" : "dish", "hu" : "Rántott csirkemell *", "en" : "Breaded chicken breast *", "price" : "2260 Ft"},
+		{"id" : "6", "role" : "dish", "hu" : "Rántott csirkemell *", "en" : "Breaded chicken breast *", "price" : "2260 Ft", "url" : "./images/dishes/rantott_csirkemell.jpeg"},
 		{"id" : "7", "role" : "dish", "hu" : "Rántott sajt *", "en" : "Breaded cheese *", "price" : "2280 Ft", "url" : "./images/dishes/rantott_sajt_korettel.jpeg"},
 		{"id" : "8", "role" : "dish", "hu" : "Rántott sertéskaraj *", "en" : "Breaded pork loin steak *", "price" : "2280 Ft"},
-		{"id" : "9", "role" : "dish", "hu" : "Rántott lazac mustáros tejszínnel *", "en" : "Breaded salmon filled with mustard cream *", "price" : "2370 Ft"},
+		{"id" : "9", "role" : "dish", "hu" : "Rántott lazac mustáros tejszínnel *", "en" : "Breaded salmon filled with mustard cream *", "price" : "2370 Ft", "url" : "./images/dishes/rantott_lazac.jpeg"},
 		{"id" : "10", "role" : "dish", "hu" : "Cigánypecsenye *", "en" : "Gypsy pork stake *", "price" : "2390 Ft"},
 		{"id" : "11", "role" : "dish", "hu" : "Fűszeres tarja tükörtojással sajttal *", "en" : "Spicy pork shoulder cutlet, fried egg, cheese *", "price" : "2430 Ft"},
 		{"id" : "12", "role" : "dish", "hu" : "2 személyes Mókus Tál **", "en" : "Squirrel Platter for 2 **", "price" : "5800 Ft", "url" : "./images/dishes/mokus_tal.jpeg"},
@@ -45,7 +45,7 @@
 		{"id" : "23", "role" : "dish", "hu" : "Baconos tócsi", "en" : "Tochi with bacon", "price" : "1880 Ft"},
 		{"id" : "24", "role" : "dish", "hu" : "Pörköltes tócsi", "en" : "Stew wrapped in tochi", "price" : "1880 Ft"},
 		{"id" : "25", "role" : "dish", "hu" : "Gyrosos tócsi", "en" : "Gyros tochi", "price" : "1910 Ft"},
-		{"id" : "26", "role" : "dish", "hu" : "Cigánypecsenye tócsi ágyon", "en" : "Gypsy pork stake on tochi bed", "price" : "2320 Ft"},
+		{"id" : "26", "role" : "dish", "hu" : "Cigánypecsenye tócsi ágyon", "en" : "Gypsy pork stake on tochi bed", "price" : "2320 Ft", "url" : "./images/dishes/ciganypecsenye_tocsi_agyon.jpeg"},
 
 		{"id" : "gyrosDishes", "role" : "header", "hu" : "Gyros ételek", "en" : "Gyros dishes"},
 		{"id" : "27", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1490 Ft"},
@@ -82,9 +82,9 @@
 		{"id" : "dessertsFillings", "role" : "info", "hu" : "* töltelék: túró, lekvár, nutella, kakaó", "en" : "* fillings: curd, jam, nutella, cacao"},
 
 		{"id" : "pickles", "role" : "header", "hu" : "Savanyúságok", "en" : "Pickles"},
-		{"id" : "47", "role" : "dish", "hu" : "Almapaprika", "en" : "Apple pepper", "price" : "490 Ft"},
+		{"id" : "47", "role" : "dish", "hu" : "Almapaprika", "en" : "Apple pepper", "price" : "490 Ft", "url" : "./images/dishes/almapaprika.jpeg"},
 		{"id" : "48", "role" : "dish", "hu" : "Cékla", "en" : "Beetroot salad", "price" : "490 Ft"},
-		{"id" : "49", "role" : "dish", "hu" : "Csemegeuborka", "en" : "Sweet cucumber", "price" : "490 Ft"},
+		{"id" : "49", "role" : "dish", "hu" : "Csemegeuborka", "en" : "Sweet cucumber", "price" : "490 Ft", "url" : "./images/dishes/csemegeuborka.jpeg"},
 		{"id" : "50", "role" : "dish", "hu" : "Vegyes savanyúság", "en" : "Mixed pickles", "price" : "490 Ft"},
 		{"id" : "51", "role" : "dish", "hu" : "Friss saláta keverék választható öntettel", "en" : "Fresh salad mix with dressing at choice", "price" : "660 Ft"},
 
@@ -108,6 +108,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.10.1", "en" : "v21.10.10.1"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.10.13.1", "en" : "v21.10.13.1"}
     ]
 }
