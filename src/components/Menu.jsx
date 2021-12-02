@@ -57,7 +57,7 @@ export default function Menu({ translations, language, setLanguage, isMenuOpen, 
                             {item.role === 'header' && (
                                 <>
                                     <h1 className="text-white text-xl leading-6 tracking-wide">{item[language]}</h1>
-                                    {item.id === 'soups' && (
+                                    {item.id === 'breakfast' && (
                                         <div className="flex justify-between items-center">
                                             <ActionButton cssClasses={`pr-1 ${language === 'hu' ? 'text-pink-300' : ''}`} text="HU" action={() => setLanguage('hu')} />
                                             <ActionButton cssClasses={`pl-1 ${language === 'en' ? 'text-pink-300' : ''}`} text="EN" action={() => setLanguage('en')} />
