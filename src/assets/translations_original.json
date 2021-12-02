@@ -1,6 +1,7 @@
 {
     "menuOpener" : {"hu" : "Étlap", "en" : "Menu"},
-    "openFor" : {"hu" : "Nyitva csak szállóvendégek részére", "en" : "Open for our guests only"},
+    "openFor" : {"hu" : "Nyitva csak szállóvendégek részére:", "en" : "Open for our guests only:"},
+    "openWhen" : {"hu" : "reggeli 07 - 09 | vacsora 18 - 21", "en" : "breakfast 07 - 09 | dinner 18 - 21"},
     "dishes" : [
         {"id" : "soups", "role" : "header", "hu" : "Levesek", "en" : "Soups"},
         {"id" : "1", "role" : "dish", "hu" : "Rántott leves pirított kenyérkockával sajttal", "en" : "Caraway seed soup with croutons and cheese", "price" : "670 Ft", "url" : ""},

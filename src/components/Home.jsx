@@ -55,12 +55,6 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
                 <hr />
                 <br />
                 <div>
-                    {translations.openWhen[language]}
-                </div>
-                <br />
-                <hr />
-                <br />
-                <div>
                     8413, Eplény Veszprémi utca 41
                 </div>
                 <br />
