@@ -11,13 +11,13 @@
 		{"id" : "6", "role" : "dish", "hu" : "Ham and eggs", "en" : "Ham and eggs", "price" : "1080 Ft", "url" : "./images/dishes/ham_and_eggs.jpeg"},
 		{"id" : "7", "role" : "dish", "hu" : "Szalonnás hagymás tojás", "en" : "Scrambled eggs with bacon and onion", "price" : "1170 Ft"},
 		{"id" : "8", "role" : "dish", "hu" : "Kontinentális reggeli", "en" : "Continental breakfast", "price" : "1230 Ft"},
-		{"id" : "9", "role" : "dish", "hu" : "Natúr tócsi", "en" : "Plain tochi", "price" : "990 Ft"},
-		{"id" : "10", "role" : "dish", "hu" : "Tócsi fokhagymás tejfölös öntettel", "en" : "Tochi with garlic sour cream sauce", "price" : "1340 Ft"},
-		{"id" : "11", "role" : "dish", "hu" : "Baconos tócsi", "en" : "Tochi with bacon", "price" : "1880 Ft"},
+		{"id" : "9", "role" : "dish", "hu" : "Natúr tócsi", "en" : "Plain tochi", "price" : "990 Ft", "url": "./images/dishes/natur_tocsi.jpeg"},
+		{"id" : "10", "role" : "dish", "hu" : "Tócsi fokhagymás tejfölös öntettel", "en" : "Tochi with garlic sour cream sauce", "price" : "1340 Ft", "url": "./images/dishes/fokhagymas_tejfolos_tocsi.jpeg"},
+		{"id" : "11", "role" : "dish", "hu" : "Baconos tócsi", "en" : "Tochi with bacon", "price" : "1880 Ft", "url": "./images/dishes/baconos_tocsi.jpeg"},
 		{"id" : "12", "role" : "dish", "hu" : "Gyrosos tócsi", "en" : "Gyros tochi", "price" : "1910 Ft"},
-		{"id" : "13", "role" : "dish", "hu" : "Mókus burger", "en" : "Squirrel burger", "price" : "1040 Ft"},
-		{"id" : "14", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1560 Ft"},
-		{"id" : "15", "role" : "dish", "hu" : "2 személyes hidegtál", "en" : "Cold platter for 2", "price" : "3690 Ft"},
+		{"id" : "13", "role" : "dish", "hu" : "Mókus burger", "en" : "Squirrel burger", "price" : "1040 Ft", "url": "./images/dishes/mokus_burger.jpeg"},
+		{"id" : "14", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1560 Ft", "url": "./images/dishes/gyros_salata.jpeg"},
+		{"id" : "15", "role" : "dish", "hu" : "2 személyes hidegtál", "en" : "Cold platter for 2", "price" : "3690 Ft", "url": "./images/dishes/2_szemelyes_hidegtal.jpeg"},
 		{"id" : "breakfastSeparator", "role" : "separator"},
 
 		{"id" : "drinks", "role" : "header", "hu" : "Italok", "en" : "Drinks"},
@@ -45,6 +45,6 @@
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing7", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.04.2", "en" : "v21.12.04.2"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.04.3", "en" : "v21.12.04.3"}
     ]
 }
