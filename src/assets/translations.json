@@ -19,8 +19,6 @@
 		{"id" : "14", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1560 Ft"},
 		{"id" : "15", "role" : "dish", "hu" : "2 személyes hidegtál", "en" : "Cold platter for 2", "price" : "3690 Ft"},
 		{"id" : "breakfastSeparator", "role" : "separator"},
-		{"id" : "breakfastBread", "role" : "info", "hu" : "* a reggelihez 4 szelet kenyér jár", "en" : "* 4 slices of bread are available for breakfast"},
-		{"id" : "breakfastSeparator2", "role" : "separator"},
 
 		{"id" : "drinks", "role" : "header", "hu" : "Italok", "en" : "Drinks"},
 		{"id" : "16", "role" : "dish", "hu" : "Eszpresszó kávé", "en" : "Espresso coffee", "price" : "400 Ft"},
@@ -41,12 +39,12 @@
 		{"id" : "closingSeparator", "role" : "separator"},
 		{"id" : "closing1", "role" : "info-centered", "hu" : "A feltüntetett árak Ft-ban értendők", "en" : "The prices are in HUF"},
 		{"id" : "closing2", "role" : "info-centered", "hu" : "és az ÁFA-t tartalmazzák!", "en" : "including VAT!"},
-		{"id" : "closing3", "role" : "info-centered", "hu" : "A reggeli elfogyasztható az étteremben,", "en" : "The breakfast can be enjoyed in the restaurant,"},
+		{"id" : "closing3", "role" : "info-centered", "hu" : "A reggeli elfogyasztható a büfében,", "en" : "The breakfast can be enjoyed in the buffet,"},
 		{"id" : "closing4", "role" : "info-centered", "hu" : "a szobában, vagy akár el is vihető.", "en" : "in the room, or can be taken away."},
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Elvitel esetén a csomagolás díja felszámolásra kerül.", "en" : "In case of take away, the packaging costs extra."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing7", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.04.1", "en" : "v21.12.04.1"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.04.2", "en" : "v21.12.04.2"}
     ]
 }
