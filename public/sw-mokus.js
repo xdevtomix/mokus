@@ -1,7 +1,7 @@
 
 const ServiceWorkerGlobalScope = this;
 const cacheNameBasis = 'mokus';
-const version = '21.12.04.6';
+const version = '21.12.05.1';
 const cacheName = `${cacheNameBasis}-v${version}`;
 const urlsToCache = [
     './images/mokusbufe_bw_64_64.png',
