@@ -46,6 +46,6 @@
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing7", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.23.2", "en" : "v21.12.23.2"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.23.3", "en" : "v21.12.23.3"}
     ]
 }

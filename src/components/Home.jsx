@@ -22,10 +22,11 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
         <div data-component="home" ref={containerRef} className="w-full h-full">
             <img
                 srcSet="
-                    ./images/mokusbufe_bw_640.jpg 640w,
-                    ./images/mokusbufe_bw_1280.jpg 1280w,
-                    ./images/mokusbufe_bw_1920.jpg 1920w,
-                    ./images/mokusbufe_bw_2560.jpg 2560w
+                    ./images/mokusbufe_640.jpg 640w,
+                    ./images/mokusbufe_1280.jpg 1280w,
+                    ./images/mokusbufe_1920.jpg 1920w,
+                    ./images/mokusbufe_2560.jpg 2560w,
+                    ./images/mokusbufe_3840.jpg 3840w
                 "
                 className="w-full h-full object-cover"
                 alt="Mókusbüfé" />
@@ -40,14 +41,14 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
             />
 
             <div className={`fixed top-2 right-2 flex flex-col items-end transition duration-300 transform-gpu ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
-                <a className="bg-black text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://bakonyi.vercel.app" target="_blank" rel="noopener">Bakonyi Apartmanház</a>
+                <a className="bg-black/70 text-white text-lg leading-5 tracking-widest p-3 rounded no-underline mb-2" href="https://bakonyi.vercel.app" target="_blank" rel="noopener">Bakonyi Apartmanház</a>
                 <div className="space-x-2">
                     <ActionButton cssClasses={language === 'hu' ? 'text-pink-300' : ''} text="HU" action={() => setLanguage('hu')} />
                     <ActionButton cssClasses={language === 'en' ? 'text-pink-300' : ''} text="EN" action={() => setLanguage('en')} />
                 </div>
             </div>
 
-            <div className="fixed bottom-2 left-2 bg-black text-white text-base leading-4 tracking-widest p-3 rounded">
+            <div className="fixed bottom-2 left-2 bg-black/70 text-white text-base leading-4 tracking-widest p-3 rounded">
                 <div>
                     {translations.openFor[language]}
                 </div>
