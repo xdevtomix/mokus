@@ -28,7 +28,7 @@ export default function Home({ translations, language, setLanguage, isMenuOpen, 
                     ./images/mokusbufe_2560.jpg 2560w,
                     ./images/mokusbufe_3840.jpg 3840w
                 "
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover sepia-[50%]"
                 alt="Mókusbüfé" />
 
             <ActionButton
