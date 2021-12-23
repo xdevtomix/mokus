@@ -25,7 +25,7 @@
 		{"id" : "17", "role" : "dish", "hu" : "Eszpresszó kávé", "en" : "Espresso coffee", "price" : "400 Ft"},
 		{"id" : "18", "role" : "dish", "hu" : "Hosszú kávé", "en" : "Long coffee", "price" : "430 Ft"},
 		{"id" : "19", "role" : "dish", "hu" : "Cappuccino", "en" : "Cappuccino", "price" : "530 Ft"},
-		{"id" : "20", "role" : "dish", "hu" : "Tejes kávé", "en" : "Milk coffee", "price" : "560 Ft"},
+		{"id" : "20", "role" : "dish", "hu" : "Tejeskávé", "en" : "Milk coffee", "price" : "560 Ft"},
 		{"id" : "21", "role" : "dish", "hu" : "Tej", "en" : "Milk", "price" : "300 Ft"},
 		{"id" : "22", "role" : "dish", "hu" : "Tea", "en" : "Tea", "price" : "300 Ft"},
 		{"id" : "23", "role" : "dish", "hu" : "Kakaó", "en" : "Hot chocolate", "price" : "400 Ft"},
@@ -46,6 +46,6 @@
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing7", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.05.1", "en" : "v21.12.05.1"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.23.1", "en" : "v21.12.23.1"}
     ]
 }
