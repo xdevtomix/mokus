@@ -12,7 +12,7 @@ export default function ImageViewer({ language, selectedDish, setSelectedDish })
                 mx-auto ipad-h:w-3/5 win:w-2/5
             `}
         >
-            <XCircleIcon className="h-12 w-12 m-12 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(null)} />
+            <XCircleIcon className="h-12 w-12 min-h-[3rem] m-12 text-gray-600 cursor-pointer no-bh" onClick={() => setSelectedDish(null)} />
             {
                 selectedDish?.url
                 &&
