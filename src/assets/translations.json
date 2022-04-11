@@ -41,11 +41,10 @@
 		{"id" : "closing1", "role" : "info-centered", "hu" : "A feltüntetett árak Ft-ban értendők", "en" : "The prices are in HUF"},
 		{"id" : "closing2", "role" : "info-centered", "hu" : "és az ÁFA-t tartalmazzák!", "en" : "including VAT!"},
 		{"id" : "closing3", "role" : "info-centered", "hu" : "A reggeli elfogyasztható a büfében,", "en" : "The breakfast can be enjoyed in the buffet,"},
-		{"id" : "closing4", "role" : "info-centered", "hu" : "a szobában, vagy akár el is vihető.", "en" : "in the room, or can be taken away."},
-		{"id" : "closing5", "role" : "info-centered", "hu" : "Elvitel esetén a csomagolás díja felszámolásra kerül.", "en" : "In case of take away, the packaging costs extra."},
-		{"id" : "closing6", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
-		{"id" : "closing7", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
+		{"id" : "closing4", "role" : "info-centered", "hu" : "vagy a szobában.", "en" : "or in the room."},
+		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
+		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v21.12.31.1", "en" : "v21.12.31.1"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v22.04.11.1", "en" : "v22.04.11.1"}
     ]
 }
