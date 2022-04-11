@@ -20,18 +20,18 @@
 		{"id" : "breakfastSeparator", "role" : "separator"},
 
 		{"id" : "drinks", "role" : "header", "hu" : "Italok", "en" : "Drinks"},
-		{"id" : "17", "role" : "dish", "hu" : "Eszpresszó kávé", "en" : "Espresso coffee", "price" : "400 Ft"},
-		{"id" : "18", "role" : "dish", "hu" : "Hosszú kávé", "en" : "Long coffee", "price" : "430 Ft"},
-		{"id" : "19", "role" : "dish", "hu" : "Cappuccino", "en" : "Cappuccino", "price" : "530 Ft"},
-		{"id" : "20", "role" : "dish", "hu" : "Tejeskávé", "en" : "Milk coffee", "price" : "560 Ft"},
-		{"id" : "21", "role" : "dish", "hu" : "Tej", "en" : "Milk", "price" : "300 Ft"},
-		{"id" : "22", "role" : "dish", "hu" : "Tea", "en" : "Tea", "price" : "300 Ft"},
-		{"id" : "23", "role" : "dish", "hu" : "Kakaó", "en" : "Hot chocolate", "price" : "400 Ft"},
-		{"id" : "24", "role" : "dish", "hu" : "Szénsavmentes ásványvíz 0.5l", "en" : "Still mineral water 0.5l", "price" : "310 Ft"},
-		{"id" : "25", "role" : "dish", "hu" : "Szénsavas ásványvíz 0.5l", "en" : "Sparkling mineral water 0.5l", "price" : "310 Ft"},
-		{"id" : "26", "role" : "dish", "hu" : "Barackos Ice tea 0.5l", "en" : "Peach Ice tea 0.5l", "price" : "440 Ft"},
-		{"id" : "27", "role" : "dish", "hu" : "Citromos Ice tea 0.5l", "en" : "Lemon Ice Tea 0.5l", "price" : "440 Ft"},
-		{"id" : "28", "role" : "dish", "hu" : "Cappy 100% narancslé 0.25l", "en" : "Cappy 100% orange juice 0.25l", "price" : "420 Ft"},
+		{"id" : "15", "role" : "dish", "hu" : "Eszpresszó kávé", "en" : "Espresso coffee", "price" : "400 Ft"},
+		{"id" : "16", "role" : "dish", "hu" : "Hosszú kávé", "en" : "Long coffee", "price" : "430 Ft"},
+		{"id" : "17", "role" : "dish", "hu" : "Cappuccino", "en" : "Cappuccino", "price" : "530 Ft"},
+		{"id" : "18", "role" : "dish", "hu" : "Tejeskávé", "en" : "Milk coffee", "price" : "560 Ft"},
+		{"id" : "19", "role" : "dish", "hu" : "Tej", "en" : "Milk", "price" : "300 Ft"},
+		{"id" : "20", "role" : "dish", "hu" : "Tea", "en" : "Tea", "price" : "300 Ft"},
+		{"id" : "21", "role" : "dish", "hu" : "Kakaó", "en" : "Hot chocolate", "price" : "400 Ft"},
+		{"id" : "22", "role" : "dish", "hu" : "Szénsavmentes ásványvíz 0.5l", "en" : "Still mineral water 0.5l", "price" : "310 Ft"},
+		{"id" : "23", "role" : "dish", "hu" : "Szénsavas ásványvíz 0.5l", "en" : "Sparkling mineral water 0.5l", "price" : "310 Ft"},
+		{"id" : "24", "role" : "dish", "hu" : "Barackos Ice tea 0.5l", "en" : "Peach Ice tea 0.5l", "price" : "440 Ft"},
+		{"id" : "25", "role" : "dish", "hu" : "Citromos Ice tea 0.5l", "en" : "Lemon Ice Tea 0.5l", "price" : "440 Ft"},
+		{"id" : "26", "role" : "dish", "hu" : "Cappy 100% narancslé 0.25l", "en" : "Cappy 100% orange juice 0.25l", "price" : "420 Ft"},
 		{"id" : "drinksSeparator", "role" : "separator"},
 
 		{"id" : "closing", "role" : "header", "hu" : "", "en" : ""},
@@ -43,6 +43,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v22.04.11.2", "en" : "v22.04.11.2"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v22.04.11.3", "en" : "v22.04.11.3"}
     ]
 }
