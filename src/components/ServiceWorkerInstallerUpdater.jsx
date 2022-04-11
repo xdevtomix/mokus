@@ -12,7 +12,10 @@ export default function ServiceWorkerInstallerUpdater() {
 
                 serviceWorkerRegistration.addEventListener('updatefound', (event) => {
                     if (serviceWorkerRegistration.active) {
-                        setUpdateFound(true);
+                        // leave the browser enough time to cache everything and delete the old cache
+                        setTimeout(() => {
+                            setUpdateFound(true);
+                        }, 5000);
                     }
                 });
             });
