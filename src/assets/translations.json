@@ -17,8 +17,6 @@
 		{"id" : "12", "role" : "dish", "hu" : "Baconos tócsi", "en" : "Tochi with bacon", "price" : "1880 Ft", "url": "./images/dishes/baconos_tocsi.jpeg"},
 		{"id" : "13", "role" : "dish", "hu" : "Gyrosos tócsi", "en" : "Gyros tochi", "price" : "1910 Ft", "url": "./images/dishes/gyrosos_tocsi.jpg"},
 		{"id" : "14", "role" : "dish", "hu" : "Mókus burger", "en" : "Squirrel burger", "price" : "1040 Ft", "url": "./images/dishes/mokus_burger.jpeg"},
-		{"id" : "15", "role" : "dish", "hu" : "Gyros saláta", "en" : "Gyros salad", "price" : "1560 Ft", "url": "./images/dishes/gyros_salata.jpeg"},
-		{"id" : "16", "role" : "dish", "hu" : "2 személyes hidegtál", "en" : "Cold platter for 2", "price" : "3690 Ft", "url": "./images/dishes/2_szemelyes_hidegtal.jpeg"},
 		{"id" : "breakfastSeparator", "role" : "separator"},
 
 		{"id" : "drinks", "role" : "header", "hu" : "Italok", "en" : "Drinks"},
@@ -45,6 +43,6 @@
 		{"id" : "closing5", "role" : "info-centered", "hu" : "Az étlap és az árváltoztatás jogát fenntartjuk.", "en" : "The menu and the prices may be subject to change."},
 		{"id" : "closing6", "role" : "info-centered", "hu" : "Érvényes visszavonásig.", "en" : "Valid until withdrawal."},
 		{"id" : "manager", "role" : "info-centered", "hu" : "Üzletvezető: Dreissiger Gáborné", "en" : "Manager: Dreissiger Gáborné"},
-		{"id" : "version", "role" : "info-centered", "hu" : "v22.04.11.1", "en" : "v22.04.11.1"}
+		{"id" : "version", "role" : "info-centered", "hu" : "v22.04.11.2", "en" : "v22.04.11.2"}
     ]
 }
